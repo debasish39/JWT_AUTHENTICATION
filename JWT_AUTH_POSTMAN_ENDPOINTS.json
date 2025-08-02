@@ -38,7 +38,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n    \"email\":\"djproject963@gmail.com\",\r\n   \r\n    \"password\":\"dj\"\r\n}",
+          "raw": "{\r\n    \"email\":\"djproject9@gmail.com\",\r\n   \r\n    \"password\":\"dj\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -161,7 +161,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n    \"email\":\"djproject963@gmail.com\"\r\n}",
+          "raw": "{\r\n    \"email\":\"djproject9@gmail.com\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
