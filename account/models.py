@@ -39,7 +39,10 @@ class User(AbstractBaseUser):
   email = models.EmailField(
       verbose_name='Email',
       max_length=255,
-      unique=True,
+      unique=True,   error_messages={
+        'blank': 'Email is required.',
+        'required': 'Please provide your email address.'
+    }
   )
   name = models.CharField(max_length=200)
   tc = models.BooleanField()

@@ -7,6 +7,7 @@ from account.views import (
     send_password_reset_email,
     user_password_reset
 )
+from rest_framework_simplejwt.views import TokenRefreshView
 
 urlpatterns = [
     path('register/', user_registration, name='register'),
@@ -15,4 +16,7 @@ urlpatterns = [
     path('changepassword/', user_change_password, name='changepassword'),
     path('send-reset-password-email/', send_password_reset_email, name='send-reset-password-email'),
     path('reset-password/<uid>/<token>/', user_password_reset, name='reset-password'),
+    path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+
+
 ]
